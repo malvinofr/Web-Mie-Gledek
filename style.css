@@ -1,0 +1,176 @@
+body {
+    font-family: 'calibri', sans-serif;
+    background-color: skyblue;
+}
+
+.navbar {
+    background-color: maroon;
+    width: 100%;
+    height: 88px;
+}
+
+.li-navbar{
+list-style: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 88px;
+    width: 100px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.hero {
+    background-color: skyblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:maroon;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero-content {
+    float: left;
+    width: 50%;
+}
+
+.hero-image {
+    float: right;
+    width: 50%;
+}
+
+.hero-image img {
+    width: 50%;
+    height: auto;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.about-us {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-content p {
+    width: 50%;
+}
+
+.about-us-content img {
+    width: 40%;
+    height: auto;
+}
+
+.berita {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.berita-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.berita-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.kontak-kami {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.kontak-kami-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontak-kami-form {
+    width: 40%;
+}
+
+.kontak-kami-info {
+    width: 40%;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
